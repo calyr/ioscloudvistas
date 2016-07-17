@@ -13,6 +13,8 @@
 		33E55A211D3AE79B002E6CA2 /* Ioscloudvistas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33E55A1F1D3AE79B002E6CA2 /* Ioscloudvistas.xcdatamodeld */; };
 		33E55A231D3AE79B002E6CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E55A221D3AE79B002E6CA2 /* Assets.xcassets */; };
 		33E55A261D3AE79B002E6CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E55A241D3AE79B002E6CA2 /* LaunchScreen.storyboard */; };
+		33E55A321D3AEA8C002E6CA2 /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E55A311D3AEA8C002E6CA2 /* CVC.swift */; };
+		33E55A341D3B10B8002E6CA2 /* LibroCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E55A331D3B10B8002E6CA2 /* LibroCelda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		33E55A221D3AE79B002E6CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E55A251D3AE79B002E6CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33E55A271D3AE79B002E6CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E55A311D3AEA8C002E6CA2 /* CVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVC.swift; sourceTree = "<group>"; };
+		33E55A331D3B10B8002E6CA2 /* LibroCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibroCelda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				33E55A241D3AE79B002E6CA2 /* LaunchScreen.storyboard */,
 				33E55A271D3AE79B002E6CA2 /* Info.plist */,
 				33E55A1F1D3AE79B002E6CA2 /* Ioscloudvistas.xcdatamodeld */,
+				33E55A311D3AEA8C002E6CA2 /* CVC.swift */,
+				33E55A331D3B10B8002E6CA2 /* LibroCelda.swift */,
 			);
 			path = Ioscloudvistas;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E55A321D3AEA8C002E6CA2 /* CVC.swift in Sources */,
 				33E55A1B1D3AE79B002E6CA2 /* ViewController.swift in Sources */,
+				33E55A341D3B10B8002E6CA2 /* LibroCelda.swift in Sources */,
 				33E55A211D3AE79B002E6CA2 /* Ioscloudvistas.xcdatamodeld in Sources */,
 				33E55A191D3AE79B002E6CA2 /* AppDelegate.swift in Sources */,
 			);
