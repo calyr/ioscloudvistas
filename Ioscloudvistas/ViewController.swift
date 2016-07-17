@@ -16,6 +16,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var imgCover: UIImageView!
     @IBOutlet weak var txtIsbn: UITextField!
     var milibro = ISBN(idIsbn: "-2")
+    
+    @IBAction func buscar(sender: UITextField) {
+        print("Buscando el valor IN vIEW CONTROLLER")
+        print(sender.text)
+        self.milibro = sincrono(sender.text!)
+        print(milibro.mostrar())
+        fuenteDatos2.append(self.milibro)
+    }
     @IBAction func buscarISBN(sender: UIButton) {
         print("Buscando el valor IN vIEW CONTROLLER")
         print(txtIsbn.text)
